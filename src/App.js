@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
-
+import logo from "./logo.svg";
+import "./App.css";
+import Navbar from "./navbar";
+import { Routes, Route } from "react-router-dom";
+//import Takeattend from "./attendance";
+import Homepage from "./homepager";
+import Login from "./login";
+import Graph from "./graph";
+import Attend from "./take_atten";
+import Mod_at from "./Modifypage";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/manage_attendance" element={<Attend />} />
+        <Route path="/graph" element={<Graph />} />
+        <Route path="/login_" element={<Login />} />
+        <Route path="/modify_attendance" element={<Mod_at />} />
+        <Route path="*" element={<h1>404 error page not found</h1>} />
+      </Routes>
+    </>
   );
 }
 

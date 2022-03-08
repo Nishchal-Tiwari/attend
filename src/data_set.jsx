@@ -1,0 +1,23 @@
+const data = [
+  { name: "aman", rollno: 1, attendance: 30, feedback_past: false },
+  { name: "abhishek", rollno: 2, attendance: 38, feedback_past: false },
+  { name: "krati", rollno: 3, attendance: 32, feedback_past: false },
+  { name: "rahul", rollno: 4, attendance: 39, feedback_past: false },
+  { name: "anjul", rollno: 5, attendance: 90, feedback_past: false },
+  { name: "anjalil", rollno: 6, attendance: 40, feedback_past: false },
+  { name: "raman", rollno: 7, attendance: 50, feedback_past: false },
+  { name: "nitish", rollno: 8, attendance: 90, feedback_past: false },
+  { name: "abhi", rollno: 9, attendance: 70, feedback_past: false },
+  { name: "kuldeep ", rollno: 10, attendance: 20, feedback_past: false },
+  { name: "jarsh", rollno: 11, attendance: 60, feedback_past: false },
+  { name: "Ram", rollno: 12, attendance: 80, feedback_past: false },
+  { name: "raasdgul", rollno: 13, attendance: 20, feedback_past: false },
+  { name: "rdfasl", rollno: 14, attendance: 55, feedback_past: false },
+  { name: "rpastal", rollno: 15, attendance: 21, feedback_past: false },
+  { name: "its ", rollno: 16, attendance: 30, feedback_past: false },
+  { name: "aloo", rollno: 17, attendance: 44, feedback_past: false },
+  { name: "aewg", rollno: 18, attendance: 52, feedback_past: false },
+  { name: "egw", rollno: 19, attendance: 52, feedback_past: false },
+  { name: "egsa", rollno: 20, attendance: 55, feedback_past: false },
+];
+export default data;

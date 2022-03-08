@@ -36,3 +36,126 @@
     transform: rotate(360deg);
   }
 }
+.form1 {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px;
+  margin-right: 35%;
+  margin-left: 35%;
+  margin-top: 5%;
+}
+.card {
+  width: 40%;
+  display: block;
+  margin: auto;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.form1 {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px;
+  margin-right: 35%;
+  margin-left: 35%;
+  margin-top: 5%;
+}
+.card {
+  width: 40%;
+  display: block;
+  margin: auto;
+}
+.Tab {
+  padding: 6px 6px;
+  border-left: 2px solid black;
+}
+.imgc {
+  height: 28px;
+  width: 36px;
+}
+.Tab1 {
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.cont {
+  background-image: url("./School_Rep_BoysinMasks_271120_1200_PTI.jpg");
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+.mod {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(43, 42, 34);
+  font-weight: bolder;
+}
+.btn-outline-secondary {
+  height: 60px;
+  border-radius: 6px;
+}
+#amani {
+  background-color: #0a4275;
+}
+#amani2 {
+  background-color: rgb(169, 234, 240);
+  width: 100%;
+  margin-left: 0px;
+  position: fixed;
+  left: 0;
+  bottom: -70px;
+}
+#carouselExampleCaptions {
+  width: 60%;
+  display: block;
+  margin: auto;
+}
+#sarv_siksha {
+  margin-left: 150px;
+  padding: 0;
+  margin-bottom: -4px;
+
+  height: 50px;
+  width: 500px;
+}
+body {
+  background-color: rgb(213, 238, 236);
+}
